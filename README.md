@@ -31,6 +31,12 @@ Once numpy, pickle and TensorFlow are installed with Python 3, you should be abl
 python mnist_autoencoder.py
 ```
 
+This trains the same auto-encoder model twice, first using NeuralNet, then using Keras/Tensorflow.
+
+The image below shows a few input images (top row), NeuralNet auto-encoder output (middle row), and Keras output (bottom row).
+
+![auto-encoder](img/mnist_ae_in_nn_k.jpg)
+
 ## Authors
 
 * **Anders Levander** - *Draft version* - [anleva/NeuralNet](https://github.com/anleva/NeuralNet)
